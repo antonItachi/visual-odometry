@@ -1,9 +1,9 @@
 import numpy as np
 
-from feature_extraction import find_fundamental_matrix
-from imagedataset import ImageDataset
-from visual_odometry import VisualOdometry
-from utils import *
+from src.feature_extraction import find_fundamental_matrix
+from src.imagedataset import ImageDataset
+from src.visual_odometry import VisualOdometry
+from src.utils import *
 
 
 MATCHES_NUMBER = 200
