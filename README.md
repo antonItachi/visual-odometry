@@ -64,10 +64,12 @@ Given four camera pose configuration(R and C) and their triangulated points, fin
   
 ```markdown
 visual-odometry/
-  ├── feature_extraction # (python) functions to find corresponding points and estimate Fundamental matrix
-  ├── visual_odometry # (python) class with main visual odometry functions.
-  ├── utils # (python/matplotlib) utility function for data processing and visualization
-  ├── imagedataset # (python) class for preproccessing `KITTI` dataset, to get the pair of images and Calibration matrix (Intrinsic matrix)
+   src/
+      ├── feature_extraction # (python) functions to find corresponding points and estimate Fundamental matrix
+      ├── visual_odometry # (python) class with main visual odometry functions.
+      ├── utils # (python/matplotlib) utility function for data processing and visualization
+      ├── imagedataset # (python) class for preproccessing `KITTI` dataset, to get the pair of images and Calibration matrix (Intrinsic matrix)
+
   ├── main.py # (python) script to demonstrate implemented methods
   ├── README.md
 ```
